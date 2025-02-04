@@ -1,0 +1,72 @@
+2025-02-03 18:32:58,347 - crew - ERROR - Config file not found: config/agents.yaml
+2025-02-03 18:32:58,348 - crew - ERROR - Error initializing MarketingPostCrew: [Errno 2] No such file or directory: 'config/agents.yaml'
+Traceback (most recent call last):
+  File "E:\stock-Analysis-crewAgent\src\marketing_posts\crew.py", line 50, in __init__
+    self.agents_config = self._load_config(agents_config_path)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\stock-Analysis-crewAgent\src\marketing_posts\crew.py", line 60, in _load_config
+    with open(config_path, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'config/agents.yaml'
+2025-02-03 18:33:09,854 - crew - ERROR - Config file not found: config/agents.yaml
+2025-02-03 18:33:09,855 - crew - ERROR - Error initializing MarketingPostCrew: [Errno 2] No such file or directory: 'config/agents.yaml'
+Traceback (most recent call last):
+  File "E:\stock-Analysis-crewAgent\src\marketing_posts\crew.py", line 50, in __init__
+    self.agents_config = self._load_config(agents_config_path)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\stock-Analysis-crewAgent\src\marketing_posts\crew.py", line 60, in _load_config
+    with open(config_path, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'config/agents.yaml'
+2025-02-03 18:38:22,265 - crew - ERROR - Config file not found: config/agents.yaml
+2025-02-03 18:38:22,267 - crew - ERROR - Error initializing MarketingPostCrew: [Errno 2] No such file or directory: 'config/agents.yaml'
+Traceback (most recent call last):
+  File "E:\stock-Analysis-crewAgent\src\marketing_posts\crew.py", line 50, in __init__
+    self.agents_config = self._load_config(agents_config_path)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\stock-Analysis-crewAgent\src\marketing_posts\crew.py", line 60, in _load_config
+    with open(config_path, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'config/agents.yaml'
+2025-02-03 18:41:11,218 - crew - ERROR - Config file not found: config/agents.yaml
+2025-02-03 18:41:11,221 - crew - ERROR - Error initializing MarketingPostCrew: [Errno 2] No such file or directory: 'config/agents.yaml'
+Traceback (most recent call last):
+  File "E:\stock-Analysis-crewAgent\src\marketing_posts\crew.py", line 51, in __init__
+    self.agents_config = self._load_config(agents_config_path)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\stock-Analysis-crewAgent\src\marketing_posts\crew.py", line 61, in _load_config
+    with open(config_path, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'config/agents.yaml'
+2025-02-03 18:58:05,665 - crew - ERROR - Config file not found: config/agents.yaml
+2025-02-03 18:58:05,668 - crew - ERROR - Error initializing MarketingPostCrew: [Errno 2] No such file or directory: 'config/agents.yaml'
+Traceback (most recent call last):
+  File "E:\stock-Analysis-crewAgent\src\marketing_posts\crew.py", line 51, in __init__
+    self.agents_config = self._load_config(agents_config_path)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\stock-Analysis-crewAgent\src\marketing_posts\crew.py", line 61, in _load_config
+    with open(config_path, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'config/agents.yaml'
+2025-02-03 19:03:52,392 - crew - ERROR - Error initializing MarketingPostCrew: Config file not found: E:\stock-Analysis-crewAgent\config\agents.yaml
+Traceback (most recent call last):
+  File "E:\stock-Analysis-crewAgent\src\marketing_posts\crew.py", line 50, in __init__
+    self.agents_config = self._load_config(self.agents_config_path)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\stock-Analysis-crewAgent\src\marketing_posts\crew.py", line 59, in _load_config
+    raise FileNotFoundError(f"Config file not found: {config_path}")
+FileNotFoundError: Config file not found: E:\stock-Analysis-crewAgent\config\agents.yaml
+2025-02-03 19:06:25,160 - crew - INFO - Loaded config from: E:\stock-Analysis-crewAgent\src\marketing_posts\config\agents.yaml
+2025-02-03 19:06:25,173 - crew - INFO - Loaded config from: E:\stock-Analysis-crewAgent\src\marketing_posts\config\tasks.yaml
+2025-02-03 19:06:25,174 - crew - INFO - Loaded configs: E:\stock-Analysis-crewAgent\src\marketing_posts\config\agents.yaml, E:\stock-Analysis-crewAgent\src\marketing_posts\config\tasks.yaml
+2025-02-03 19:10:57,757 - crew - INFO - Loaded config from: E:\stock-Analysis-crewAgent\src\marketing_posts\config\agents.yaml
+2025-02-03 19:10:57,765 - crew - INFO - Loaded config from: E:\stock-Analysis-crewAgent\src\marketing_posts\config\tasks.yaml
+2025-02-03 19:10:57,765 - crew - INFO - Loaded configs: E:\stock-Analysis-crewAgent\src\marketing_posts\config\agents.yaml, E:\stock-Analysis-crewAgent\src\marketing_posts\config\tasks.yaml
+2025-02-03 19:29:40,716 - crew - INFO - Loaded configs: E:\stock-Analysis-crewAgent\src\marketing_posts\config\agents.yaml, E:\stock-Analysis-crewAgent\src\marketing_posts\config\tasks.yaml
+2025-02-03 19:32:57,243 - crew - INFO - Loaded configs: E:\stock-Analysis-crewAgent\src\marketing_posts\config\agents.yaml, E:\stock-Analysis-crewAgent\src\marketing_posts\config\tasks.yaml
+2025-02-03 19:33:47,784 - crew - INFO - Loaded configs: E:\stock-Analysis-crewAgent\src\marketing_posts\config\agents.yaml, E:\stock-Analysis-crewAgent\src\marketing_posts\config\tasks.yaml
+2025-02-03 19:35:34,872 - crew - INFO - Loaded configs: E:\stock-Analysis-crewAgent\src\marketing_posts\config\agents.yaml, E:\stock-Analysis-crewAgent\src\marketing_posts\config\tasks.yaml
+2025-02-03 19:37:27,936 - crew - INFO - Loaded configs: E:\stock-Analysis-crewAgent\src\marketing_posts\config\agents.yaml, E:\stock-Analysis-crewAgent\src\marketing_posts\config\tasks.yaml
+2025-02-03 19:39:05,054 - crew - INFO - Loaded configs: E:\stock-Analysis-crewAgent\src\marketing_posts\config\agents.yaml, E:\stock-Analysis-crewAgent\src\marketing_posts\config\tasks.yaml
+2025-02-03 19:40:39,761 - crew - INFO - Loaded configs: E:\stock-Analysis-crewAgent\src\marketing_posts\config\agents.yaml, E:\stock-Analysis-crewAgent\src\marketing_posts\config\tasks.yaml
+2025-02-03 19:50:27,087 - crew - INFO - Loaded configs: E:\stock-Analysis-crewAgent\src\marketing_posts\config\agents.yaml, E:\stock-Analysis-crewAgent\src\marketing_posts\config\tasks.yaml
