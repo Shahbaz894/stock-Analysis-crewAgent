@@ -118,5 +118,5 @@ Logs are stored in the `logs/` directory. Adjust log levels in `logger.py`.
 This project is licensed under the MIT License.
 
 ## Contact
-For issues or contributions, create a GitHub issue or contact the developer at [your-email@example.com].
+For issues or contributions, create a GitHub issue or contact the developer at [shahbazzulfiqar894@gmail.com].
 
